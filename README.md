@@ -14,6 +14,9 @@ A World of Warcraft (Retail) addon that shows a banner when your health drops be
 - `/hpp options` opens the settings
 - Minimap button: left-click locks, right-click opens options
 
+## Links
+- CurseForge: https://www.curseforge.com/projects/1723345
+
 ## Install
 Copy the `XenHealthItems` folder into `World of Warcraft/_retail_/Interface/AddOns/`.
 
