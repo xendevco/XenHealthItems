@@ -18,4 +18,4 @@ A World of Warcraft (Retail) addon that shows a banner when your health drops be
 Copy the `XenHealthItems` folder into `World of Warcraft/_retail_/Interface/AddOns/`.
 
 ## License
-MIT
+All Rights Reserved. See LICENSE.
