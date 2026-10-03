@@ -6,7 +6,7 @@
 ## SavedVariables: XenHealthItemsDB, HealthPotPingDB
 ## IconTexture: 135230
 ## X-Curse-Project-ID: 1723345
-## X-Website: https://www.curseforge.com/projects/1723345
+## X-Website: https://www.curseforge.com/wow/addons/xenhealthitems
 ## AllowLoadGameType: mainline
 
 XenHealthItems.lua
