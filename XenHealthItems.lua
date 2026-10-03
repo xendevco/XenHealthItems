@@ -1378,7 +1378,7 @@ local function CreateMinimapButton()
 end
 
 local function Help()
-	Say("minimap left-click locks the banner, right-click opens options. /hpp test previews the banner.")
+	Say("minimap left-click locks the banner, right-click opens options. /xh test previews the banner.")
 end
 
 local function StartTest()
@@ -1396,9 +1396,7 @@ local function StartTest()
 	SafeUpdate()
 end
 
-SLASH_XENHEALTHITEMS1 = "/hpp"
-SLASH_XENHEALTHITEMS2 = "/healthpot"
-SLASH_XENHEALTHITEMS3 = "/xhi"
+SLASH_XENHEALTHITEMS1 = "/xh"
 SlashCmdList.XENHEALTHITEMS = function(msg)
 	if not db or not frame then
 		return
@@ -1412,7 +1410,7 @@ SlashCmdList.XENHEALTHITEMS = function(msg)
 		db.locked = false
 		forceVisible = true
 		ApplyLock()
-		Say("unlocked. Drag the banner, then /hpp lock.")
+		Say("unlocked. Drag the banner, then /xh lock.")
 	elseif msg == "lock" then
 		db.locked = true
 		forceVisible = false

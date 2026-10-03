@@ -9,9 +9,9 @@ A World of Warcraft (Retail) addon that shows a banner when your health drops be
 - Adjustable alert size and warning threshold
 
 ## Usage
-- `/hpp` or `/xhi` locks and unlocks the banner for moving
-- `/hpp test` previews the banner
-- `/hpp options` opens the settings
+- `/xh` locks and unlocks the banner for moving
+- `/xh test` previews the banner
+- `/xh options` opens the settings
 - Minimap button: left-click locks, right-click opens options
 
 ## Links
