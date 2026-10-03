@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Xen Health Items</title>
+  <defs>
+    <clipPath id="glass">
+      <path d="M170 150 H230 V190 C275 205 300 245 300 285 C300 330 265 360 200 360 C135 360 100 330 100 285 C100 245 125 205 170 190 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="400" height="400" rx="72" fill="#1b1a22"/>
+  <!-- ping rings -->
+  <g fill="none" stroke="#e2483d" stroke-linecap="round">
+    <path d="M62 120 A150 150 0 0 1 120 62" stroke-width="12" opacity="0.9"/>
+    <path d="M40 100 A180 180 0 0 1 100 40" stroke-width="10" opacity="0.55"/>
+    <path d="M338 120 A150 150 0 0 0 280 62" stroke-width="12" opacity="0.9"/>
+    <path d="M360 100 A180 180 0 0 0 300 40" stroke-width="10" opacity="0.55"/>
+  </g>
+  <!-- flask -->
+  <path d="M170 150 H230 V190 C275 205 300 245 300 285 C300 330 265 360 200 360 C135 360 100 330 100 285 C100 245 125 205 170 190 Z" fill="#2c2b36"/>
+  <g clip-path="url(#glass)">
+    <path d="M90 255 Q145 235 200 255 T310 255 V370 H90 Z" fill="#d93a31"/>
+    <path d="M90 255 Q145 235 200 255 T310 255" fill="none" stroke="#f26b5e" stroke-width="6"/>
+  </g>
+  <path d="M170 150 H230 V190 C275 205 300 245 300 285 C300 330 265 360 200 360 C135 360 100 330 100 285 C100 245 125 205 170 190 Z" fill="none" stroke="#f1ece4" stroke-width="10" stroke-linejoin="round"/>
+  <!-- neck rim and cork -->
+  <rect x="158" y="138" width="84" height="16" rx="6" fill="#f1ece4"/>
+  <rect x="176" y="96" width="48" height="46" rx="8" fill="#b98a55"/>
+  <!-- cross -->
+  <path d="M188 280 H212 V304 H236 V328 H212 V352 H188 V328 H164 V304 H188 Z" transform="translate(0,-34) scale(1)" fill="#f1ece4" opacity="0.95"/>
+</svg>

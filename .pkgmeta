@@ -1,0 +1,6 @@
+package-as: XenHealthItems
+ignore:
+  - README.md
+  - logo.svg
+  - logo.png
+  - .gitignore

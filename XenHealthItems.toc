@@ -1,0 +1,10 @@
+## Interface: 120105, 120100, 120007
+## Title: Xen Health Items
+## Notes: Banner when you drop under 40% and a health pot or healthstone is ready. Still works when your health number is secret.
+## Author: Xen
+## Version: 1.0.0
+## SavedVariables: XenHealthItemsDB, HealthPotPingDB
+## IconTexture: 135230
+## AllowLoadGameType: mainline
+
+XenHealthItems.lua
